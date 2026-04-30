@@ -80,10 +80,9 @@ Classifies:
 
 ---
 
-```markdown
 ## 🏗️ System Architecture
 
-```mermaid id="arch1"
+```mermaid
 graph TB
     A[Image Dataset] --> B[Image Loader]
     B --> C[Preprocessing - OpenCV]
@@ -93,7 +92,6 @@ graph TB
     F --> G[Annotation Module]
     G --> H[Output Images]
     F --> I[Logging System]
-```
 
 ---
 
