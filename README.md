@@ -82,6 +82,7 @@ Classifies:
 
 ## 🏗️ System Architecture
 
+
 ```mermaid
 graph TB
     A[Image Dataset] --> B[Image Loader]
