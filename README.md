@@ -92,6 +92,7 @@ graph TB
     F --> G[Annotation Module]
     G --> H[Output Images]
     F --> I[Logging System]
+```
 
 ---
 
