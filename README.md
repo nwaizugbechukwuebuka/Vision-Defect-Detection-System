@@ -80,15 +80,15 @@ Classifies:
 
 ---
 
+```markdown
 ## 🏗️ System Architecture
 
-
-```mermaid
+```mermaid id="arch1"
 graph TB
     A[Image Dataset] --> B[Image Loader]
     B --> C[Preprocessing - OpenCV]
     C --> D[Feature Extraction]
-    D --> E[Defect Classifier (SVM)]
+    D --> E[Defect Classifier - SVM]
     E --> F[Detection Engine]
     F --> G[Annotation Module]
     G --> H[Output Images]
