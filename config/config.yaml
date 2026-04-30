@@ -1,0 +1,19 @@
+# Configurable thresholds and parameters for defect detection
+preprocessing:
+  blur_kernel_size: 5
+  canny_threshold1: 50
+  canny_threshold2: 150
+
+defect_detection:
+  scratch_min_length: 30
+  scratch_max_area: 100
+  scratch_confidence: 0.9
+  shape_anomaly_area_threshold: 500
+  shape_anomaly_confidence: 0.8
+  missing_component_area_range: [1000, 5000]
+  missing_component_confidence: 0.85
+  confidence_threshold: 0.7
+
+logging:
+  log_level: INFO
+  log_file: outputs/logs/system.log

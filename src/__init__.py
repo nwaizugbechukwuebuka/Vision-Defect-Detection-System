@@ -1,0 +1,1 @@
+"""Initialize src package for defect detection system."""
